@@ -1,0 +1,30 @@
+MaNGA Quantitative Kinematic Revalidation
+Target: 8138-12704
+DAPTYPE: HYB10-MILESHC-MASTARSSP
+Covered spaxels: 2704
+Unique stellar bins: 2194
+Singleton bins: 2072
+Multi-spaxel bins: 122
+Valid velocity bins: 2194
+Valid corrected-sigma bins: 2194
+Joint bins: 2194
+Descriptive median velocity [km/s]: 33.644056
+Weighted plane intercept [km/s]: 23.251465
+First-order PA [deg]: 167.300313
+Velocity gradient [km/s/arcsec]: 20.276669
+Projected rotation amplitude proxy [km/s]: 206.834203
+
+Plane-fit sensitivity:
+                            fit  intercept_km_s  gradient_km_s_arcsec  PA_axis_deg
+               inverse_variance       23.251465             20.276669   167.300313
+inverse_variance_times_bin_area       23.409395             19.950936   166.491410
+
+Lambda_R weighting comparison:
+ aperture_Re                weighting  lambda_R  n_bins
+         1.0        BIN_MFLUX_per_bin  0.646453    1024
+         1.0 BIN_MFLUX_times_bin_area  0.646453    1024
+         2.0        BIN_MFLUX_per_bin  0.715884    2194
+         2.0 BIN_MFLUX_times_bin_area  0.700203    2194
+
+Caveats: projected quantities only; formal IVAR errors exclude systematic effects;
+lambda_R depends on flux definition, spatial sampling, bin representation, geometry and PSF.

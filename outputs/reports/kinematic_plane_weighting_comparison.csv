@@ -1,0 +1,3 @@
+fit,intercept_km_s,gradient_km_s_arcsec,PA_axis_deg
+inverse_variance,23.25146485145557,20.276669374368016,167.30031298907772
+inverse_variance_times_bin_area,23.409394553514854,19.95093581621701,166.49141048130954

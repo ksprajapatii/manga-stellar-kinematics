@@ -1,0 +1,169 @@
+{
+  "project": "Stellar Kinematics Mapping of a Galaxy Using MaNGA IFU Data",
+  "target": {
+    "plate_ifu": "8138-12704",
+    "daptype": "HYB10-MILESHC-MASTARSSP",
+    "survey_release": "SDSS-IV MaNGA DR17 (confirm exact release metadata from source headers)"
+  },
+  "generated_utc": "2026-11-05T05:25:26.869027+00:00",
+  "input_files": [
+    {
+      "role": "MAPS",
+      "filename": "manga-8138-12704-MAPS-HYB10-MILESHC-MASTARSSP.fits.gz",
+      "size_bytes": 11000233,
+      "sha256": "e2ddf65e99df64be21aa6d0970cbf18aa103ca62d548a0682cacbf85c43ba130"
+    },
+    {
+      "role": "DRP_LOGCUBE",
+      "filename": "manga-8138-12704-LOGCUBE.fits.gz",
+      "size_bytes": 201542147,
+      "sha256": "a2cf8bf1244d3f0594bd77c2b5e46aa0666f21256ac1fffe7d763b3ba41b9a69"
+    },
+    {
+      "role": "DAP_LOGCUBE",
+      "filename": "manga-8138-12704-LOGCUBE-HYB10-MILESHC-MASTARSSP.fits.gz",
+      "size_bytes": 224743906,
+      "sha256": "f3580555416fa0eb4bc8ba39eb25646029642e886b827fc166c2415670962664"
+    }
+  ],
+  "expected_outputs": {
+    "MAPS": {
+      "exists": true,
+      "path": "D:\\KS\\manga-stellar-kinematics\\data\\raw\\manga-8138-12704-MAPS-HYB10-MILESHC-MASTARSSP.fits.gz"
+    },
+    "DRP_LOGCUBE": {
+      "exists": true,
+      "path": "D:\\KS\\manga-stellar-kinematics\\data\\raw\\manga-8138-12704-LOGCUBE.fits.gz"
+    },
+    "DAP_LOGCUBE": {
+      "exists": true,
+      "path": "D:\\KS\\manga-stellar-kinematics\\data\\raw\\manga-8138-12704-LOGCUBE-HYB10-MILESHC-MASTARSSP.fits.gz"
+    },
+    "processed_kinematics": {
+      "exists": true,
+      "path": "D:\\KS\\manga-stellar-kinematics\\data\\processed\\stellar_kinematics_8138-12704.npz"
+    },
+    "processed_geometry": {
+      "exists": true,
+      "path": "D:\\KS\\manga-stellar-kinematics\\data\\processed\\manga_geometry_8138-12704.npz"
+    },
+    "milestone5_summary": {
+      "exists": true,
+      "path": "D:\\KS\\manga-stellar-kinematics\\outputs\\stellar_kinematics_quantitative_summary.txt"
+    },
+    "milestone5_radial_profiles": {
+      "exists": true,
+      "path": "D:\\KS\\manga-stellar-kinematics\\outputs\\stellar_kinematics_radial_profiles.csv"
+    },
+    "milestone6_robustness": {
+      "exists": true,
+      "path": "D:\\KS\\manga-stellar-kinematics\\outputs\\robustness_uncertainty_report.txt"
+    },
+    "milestone6_report_draft": {
+      "exists": true,
+      "path": "D:\\KS\\manga-stellar-kinematics\\outputs\\research_report_draft_8138-12704.md"
+    }
+  },
+  "figures": [
+    {
+      "filename": "bootstrap_kinematic_pa_deg_mod180.png",
+      "size_bytes": 62533,
+      "modified_utc": "2026-11-04T18:25:06.060544+00:00"
+    },
+    {
+      "filename": "bootstrap_lambda_R_1Re.png",
+      "size_bytes": 56965,
+      "modified_utc": "2026-11-04T18:25:06.937397+00:00"
+    },
+    {
+      "filename": "bootstrap_lambda_R_2Re.png",
+      "size_bytes": 52041,
+      "modified_utc": "2026-11-04T18:25:07.687703+00:00"
+    },
+    {
+      "filename": "bootstrap_vrot_projected_proxy_kms.png",
+      "size_bytes": 65348,
+      "modified_utc": "2026-11-04T18:25:06.416038+00:00"
+    },
+    {
+      "filename": "elliptical_geometry_maps.png",
+      "size_bytes": 130105,
+      "modified_utc": "2026-11-04T18:00:05.675469+00:00"
+    },
+    {
+      "filename": "lambda_R_cumulative_profile.png",
+      "size_bytes": 66783,
+      "modified_utc": "2026-11-04T18:21:16.857517+00:00"
+    },
+    {
+      "filename": "manga_flux_snr_context.png",
+      "size_bytes": 129360,
+      "modified_utc": "2026-11-04T18:00:06.563613+00:00"
+    },
+    {
+      "filename": "milestone9_dispersion_radial_profile.png",
+      "size_bytes": 45475,
+      "modified_utc": "2026-11-04T20:21:11.977298+00:00"
+    },
+    {
+      "filename": "milestone9_velocity_radial_profile.png",
+      "size_bytes": 30450,
+      "modified_utc": "2026-11-04T20:21:11.074809+00:00"
+    },
+    {
+      "filename": "spaxel_sky_offsets.png",
+      "size_bytes": 110930,
+      "modified_utc": "2026-11-04T18:00:04.857041+00:00"
+    },
+    {
+      "filename": "stellar_kinematics_radial_profiles.png",
+      "size_bytes": 158013,
+      "modified_utc": "2026-11-04T18:21:16.313613+00:00"
+    },
+    {
+      "filename": "stellar_sigma_corrected_map.png",
+      "size_bytes": 88099,
+      "modified_utc": "2026-11-04T17:57:58.278767+00:00"
+    },
+    {
+      "filename": "stellar_sigma_corrected_map_wcs.png",
+      "size_bytes": 86161,
+      "modified_utc": "2026-11-04T18:00:04.059108+00:00"
+    },
+    {
+      "filename": "stellar_velocity_bin_residuals.png",
+      "size_bytes": 423824,
+      "modified_utc": "2026-11-04T18:21:15.199026+00:00"
+    },
+    {
+      "filename": "stellar_velocity_map_standard.png",
+      "size_bytes": 76846,
+      "modified_utc": "2026-11-04T17:57:57.828061+00:00"
+    },
+    {
+      "filename": "stellar_velocity_map_wcs.png",
+      "size_bytes": 71685,
+      "modified_utc": "2026-11-04T18:00:03.509919+00:00"
+    }
+  ],
+  "environment": {
+    "python_version": "3.11.17 | packaged by Anaconda, Inc. | (main, Oct  1 2026, 20:16:54) [MSC v.1942 64 bit (AMD64)]",
+    "platform": "Windows-10-10.0.26300-SP0",
+    "packages": {
+      "numpy": "2.4.6",
+      "scipy": "1.17.1",
+      "matplotlib": "3.11.2",
+      "astropy": "8.0.2",
+      "pandas": "3.1.0",
+      "jupyter": "1.1.1",
+      "ipykernel": "7.4.0"
+    }
+  },
+  "analysis_notes": [
+    "Stellar kinematics in HYB10 are associated with stellar-continuum Voronoi bins.",
+    "Stellar velocity is line-of-sight and relative to the DAP input guess redshift.",
+    "Corrected stellar dispersion must account for the instrumental correction.",
+    "Bootstrap intervals in this project quantify sampling variation only.",
+    "Large-scale stellar kinematics alone do not establish an SMBH binary."
+  ]
+}

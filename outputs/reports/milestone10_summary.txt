@@ -1,0 +1,7 @@
+Milestone 10 — Spatially Resolved Kinematic Validation
+Target: MaNGA 8138-12704
+Valid unique stellar bins: 2194
+Adopted kinematic PA: 167.3003 deg
+Major-axis slit half-width: 2.000 arcsec
+Systemic/reference velocity subtracted: 33.6441 km/s
+V/sigma definition: sqrt(<V_resid^2>_F / <sigma^2>_F), with F=BIN_MFLUX*BIN_AREA

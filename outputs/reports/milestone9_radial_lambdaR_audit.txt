@@ -1,0 +1,23 @@
+Milestone 9B — Radial Profiles and lambda_R Methodology Audit
+Valid stellar bins: 2194
+Covered spaxels represented: 2704
+Singleton bins: 2072
+
+Radial profiles:
+ R_Re_center  R_Re_low  R_Re_high  n_bins  median_v_resid_km_s  median_sigma_km_s  median_sigma_raw_km_s
+        0.25       0.0        0.5     254           -10.184611         156.685437             158.131020
+        0.75       0.5        1.0     770            -5.709579         110.516430             112.285679
+        1.25       1.0        1.5    1076             5.223139          89.479257              91.333241
+        1.75       1.5        2.0      94            22.935036          91.672539              93.544933
+
+Lambda_R methodology comparison:
+ aperture_Re                 weighting  lambda_R  n_bins
+         1.0         BIN_MFLUX_per_bin  0.646215    1024
+         1.0  BIN_MFLUX_times_BIN_AREA  0.646215    1024
+         1.0 BIN_MFLUX_times_n_spaxels  0.646215    1024
+         2.0         BIN_MFLUX_per_bin  0.715598    2194
+         2.0  BIN_MFLUX_times_BIN_AREA  0.699775    2194
+         2.0 BIN_MFLUX_times_n_spaxels  0.699775    2194
+
+Caution: all values are projected quantities. BIN_MFLUX weighting alternatives are diagnostics;
+final adoption requires justification of bin flux, bin area, fractional area and spatial sampling.

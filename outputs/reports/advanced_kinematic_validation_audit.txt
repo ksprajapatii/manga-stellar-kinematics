@@ -1,0 +1,28 @@
+MaNGA Advanced Kinematic Validation Audit
+Target: 8138-12704
+DAPTYPE: HYB10-MILESHC-MASTARSSP
+MAPS file: manga-8138-12704-MAPS-HYB10-MILESHC-MASTARSSP.fits.gz
+Selected stellar BINID plane: 0
+Previous reported unique bins: 2194
+Selected plane covered spaxels: 2704
+Selected plane unique IDs: 2194
+Singleton bins: 2072
+Median spaxels per bin: 1.0
+95th percentile within-bin velocity range: 0.0
+Velocity standard valid spaxels: 2704
+Velocity strict valid spaxels: 2704
+Sigma standard valid spaxels: 2704
+Sigma strict valid spaxels: 2704
+Velocity mask standard/strict identical: True
+Sigma mask standard/strict identical: True
+BIN representation confirmed by user: False
+
+BINID plane statistics:
+{'plane': 0, 'covered_spaxels': 2704, 'unique_nonnegative_ids': 2194, 'max_spaxels_in_one_bin': 29, 'largest_bin_fraction': 0.010724852071005916}
+{'plane': 1, 'covered_spaxels': 2704, 'unique_nonnegative_ids': 2194, 'max_spaxels_in_one_bin': 29, 'largest_bin_fraction': 0.010724852071005916}
+{'plane': 2, 'covered_spaxels': 2704, 'unique_nonnegative_ids': 2704, 'max_spaxels_in_one_bin': 1, 'largest_bin_fraction': 0.0003698224852071006}
+{'plane': 3, 'covered_spaxels': 2704, 'unique_nonnegative_ids': 2704, 'max_spaxels_in_one_bin': 1, 'largest_bin_fraction': 0.0003698224852071006}
+{'plane': 4, 'covered_spaxels': 2704, 'unique_nonnegative_ids': 2704, 'max_spaxels_in_one_bin': 1, 'largest_bin_fraction': 0.0003698224852071006}
+
+Interpretation note: this audit checks metadata, bin assignments, masks and sampling.
+It does not by itself validate a dynamical model or establish an SMBH binary.

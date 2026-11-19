@@ -1,0 +1,11 @@
+MaNGA Stellar Kinematics Extraction Report
+Plate-IFU: 8138-12704
+DAPTYPE: HYB10-MILESHC-MASTARSSP
+MAPS file: manga-8138-12704-MAPS-HYB10-MILESHC-MASTARSSP.fits.gz
+Spatial shape: (72, 72)
+Velocity valid (standard): 2704 / 5184
+Velocity valid (strict): 2704 / 5184
+Corrected sigma valid (standard): 2704 / 5184
+Corrected sigma valid (strict): 2704 / 5184
+Negative sigma correction radicands: 0
+Dispersion correction: sqrt(STELLAR_SIGMA**2 - STELLAR_SIGMACORR[0]**2)

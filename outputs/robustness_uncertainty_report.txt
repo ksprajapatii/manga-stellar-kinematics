@@ -1,0 +1,49 @@
+MaNGA Robustness and Uncertainty Report
+Plate-IFU: 8138-12704
+DAPTYPE: HYB10-MILESHC-MASTARSSP
+Generated UTC: 2026-11-04T18:25:08.222583+00:00
+Bootstrap iterations requested: 2000
+Random seed: 813812704
+
+STANDARD QUALITY SAMPLE
+n_bins: 2194
+v_sys_residual_kms: 33.64405632019043
+kinematic_pa_deg_mod180: 167.30031298907772
+velocity_gradient_kms_per_arcsec: 20.276669374368016
+vrot_projected_proxy_kms: 206.83420333862307
+lambda_R_1Re: 0.64621489194598
+lambda_R_2Re: 0.7155977178959942
+Bootstrap percentile intervals (16th, 50th, 84th):
+v_sys_residual_kms: 33.7738, 26.6949, 38.5799 (valid resamples=2000)
+kinematic_pa_deg_mod180: 167.307, 166.877, 167.739 (valid resamples=2000)
+velocity_gradient_kms_per_arcsec: 20.2696, 20.1185, 20.4209 (valid resamples=2000)
+vrot_projected_proxy_kms: 206.781, 205.917, 207.574 (valid resamples=2000)
+lambda_R_1Re: 0.645878, 0.637341, 0.654866 (valid resamples=2000)
+lambda_R_2Re: 0.715463, 0.709792, 0.721073 (valid resamples=2000)
+
+STRICT QUALITY SAMPLE
+n_bins: 2194
+v_sys_residual_kms: 33.64405632019043
+kinematic_pa_deg_mod180: 167.30031298907772
+velocity_gradient_kms_per_arcsec: 20.276669374368016
+vrot_projected_proxy_kms: 206.83420333862307
+lambda_R_1Re: 0.64621489194598
+lambda_R_2Re: 0.7155977178959942
+Bootstrap percentile intervals (16th, 50th, 84th):
+v_sys_residual_kms: 33.9234, 26.8003, 38.5799 (valid resamples=2000)
+kinematic_pa_deg_mod180: 167.305, 166.882, 167.745 (valid resamples=2000)
+velocity_gradient_kms_per_arcsec: 20.2781, 20.1224, 20.4436 (valid resamples=2000)
+vrot_projected_proxy_kms: 206.77, 205.934, 207.608 (valid resamples=2000)
+lambda_R_1Re: 0.646408, 0.637993, 0.654708 (valid resamples=2000)
+lambda_R_2Re: 0.715565, 0.709842, 0.721068 (valid resamples=2000)
+
+LIMITATIONS
+- Sampling bootstrap intervals quantify bin-sampling variation only.
+- They do not include systematic uncertainty from beam smearing or PSF convolution.
+- They do not include stellar-template mismatch or DAP model assumptions.
+- The adopted photometric geometry affects elliptical radii and lambda_R.
+- The first-order velocity-plane PA can be biased by non-circular motions, bars, or asymmetry.
+- The projected rotation amplitude is not the deprojected circular speed.
+- The residual systemic velocity is relative to the DAP input guess redshift.
+- The lambda_R estimator is projected and aperture-dependent.
+- A stellar kinematic map alone is not evidence for a supermassive-black-hole binary.

@@ -1,0 +1,15 @@
+MaNGA Stellar Kinematics Quantitative Summary
+Plate-IFU: 8138-12704
+DAPTYPE: HYB10-MILESHC-MASTARSSP
+Unique stellar bins: 2194
+Valid velocity bins: 2194
+Valid corrected-dispersion bins: 2194
+Joint valid bins: 2194
+Residual systemic velocity estimate [km/s]: 33.6441
+Robust velocity scatter [km/s]: 190.3056
+First-order kinematic PA [deg, N through E, modulo 180]: 167.3003
+Velocity gradient amplitude [km/s/arcsec]: 20.2767
+Projected rotation amplitude proxy [km/s]: 206.8342
+lambda_R within 1 Re: 0.64621
+lambda_R within 2 Re: 0.71560
+Caution: these are first-pass projected estimates, not deprojected dynamical quantities.

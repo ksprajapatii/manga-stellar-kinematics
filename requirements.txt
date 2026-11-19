@@ -1,0 +1,9 @@
+numpy
+scipy
+pandas
+matplotlib
+seaborn
+astropy
+jupyterlab
+ipykernel
+requests
